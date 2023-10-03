@@ -1,0 +1,148 @@
+
+.Formulario {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    border-radius: 5px;
+    
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+.campo1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  }
+
+.campo2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    }
+.campo3{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 10px;
+      }
+.campo4{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 10px;
+       }
+
+
+.campo5{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 10px;
+        }
+        
+.campo6{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-bottom: 10px;
+            }
+
+            
+input[type="text"],
+select {
+  width: 24%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+#nivelEstudios{
+  width: 50%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+#municipio{
+    width: 62%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+
+  #asunto{
+    width: 67%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+
+.boton{
+  display: block;
+  width: 100%;
+  padding: 8px 8px;
+  background-color: gray;
+  color: black;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+/* Media queries para diseño responsivo */
+ @media screen and (max-width: 768px) {
+    .campo1 label,
+    .campo2 label,
+    .campo3 label,
+    .campo4 label,
+    .campo5 label,
+    .campo6 label {
+      flex-basis: 100%;
+      margin-right: 0;
+    }
+    input[type="text"],
+    select {
+      width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .campo1 label,
+    .campo2 label,
+    .campo3 label,
+    .campo4 label,
+    .campo5 label,
+    .campo6 label {
+      flex-basis: 100%;
+      margin-right: 0;
+    }
+  
+    input[type="text"],
+    select {
+      width: 100%;
+      font-size: 14px; /* Ajusta el tamaño del texto para pantallas más pequeñas */
+    }
+  
+    .boton {
+      font-size: 16px; /* Ajusta el tamaño del botón para pantallas más pequeñas */
+     }
+  } 
+
+  span{
+    display: block;
+    color: red;
+    font-size: x-small;
+  } 
+
+  
